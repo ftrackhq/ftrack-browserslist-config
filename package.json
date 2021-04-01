@@ -1,0 +1,10 @@
+{
+  "name": "@ftrack/browserslist-config",
+  "version": "1.0.0",
+  "description": "Shareable Browserslist config for ftrack",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:ftrack/ftrack-browserslist-config.git",
+  "author": "ftrack",
+  "license": "MIT",
+  "private": false
+}
