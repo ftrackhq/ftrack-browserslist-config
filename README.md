@@ -1,29 +1,34 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Shareable [Browserslist](https://github.com/browserslist/browserslist) config for [ftrack](https://ftrack.com).
 
-### What is this repository for? ###
+### Installation ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Installation
 
-### How do I get set up? ###
+```
+yarn add --dev @ftrack/browserslist-config
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Usage ###
 
-### Contribution guidelines ###
+Configuration in package.json
 
-* Writing tests
-* Code review
-* Other guidelines
+```
+{
+  "browserslist": [
+    "extends @ftrack/browserslist-config"
+  ]
+}
+```
 
-### Who do I talk to? ###
+To support Qt5-based applications, include both:
 
-* Repo owner or admin
-* Other community or team contact
+```
+{
+  "browserslist": [
+    "extends @ftrack/browserslist-config"
+    "extends @ftrack/browserslist-config/qt5"
+  ]
+}
+```
