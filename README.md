@@ -32,3 +32,9 @@ To support Qt5-based applications, include both:
   ]
 }
 ```
+
+### Publishing changes ###
+
+```
+yarn publish --access public
+```
