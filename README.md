@@ -1,8 +1,8 @@
-# README #
+# README
 
 Shareable [Browserslist](https://github.com/browserslist/browserslist) config for [ftrack](https://ftrack.com).
 
-### Installation ###
+### Installation
 
 Installation
 
@@ -10,7 +10,7 @@ Installation
 yarn add --dev @ftrack/browserslist-config
 ```
 
-### Usage ###
+### Usage
 
 Configuration in package.json
 
@@ -33,7 +33,7 @@ To support Qt5-based applications, include both:
 }
 ```
 
-### Publishing changes ###
+### Publishing changes
 
 ```
 yarn publish --access public

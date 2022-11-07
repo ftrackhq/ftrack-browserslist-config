@@ -2,9 +2,22 @@
   "name": "@ftrack/browserslist-config",
   "version": "1.0.0",
   "description": "Shareable Browserslist config for ftrack",
+  "packageManager": "yarn@3.2.4",
   "main": "index.js",
   "repository": "git@bitbucket.org:ftrack/ftrack-browserslist-config.git",
   "author": "ftrack",
-  "license": "MIT",
-  "private": false
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "build": "true",
+    "lint": "eslint . && prettier -c .",
+    "test": "yarn lint",
+    "prepack": "yarn build",
+    "prepublish": "yarn test"
+  }
 }
