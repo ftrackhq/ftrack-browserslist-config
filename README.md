@@ -1,4 +1,4 @@
-# README
+# @ftrack/browserslist-config
 
 Shareable [Browserslist](https://github.com/browserslist/browserslist) config for [ftrack](https://ftrack.com).
 
